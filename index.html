@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./library/styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="./recipes/shrimp.html">Shrimp</a></li>
-        <li><a href="./recipes/salad.html">Salad</a></li>
-    </ul>
+    <div class="hero flex_container">
+        <div class="overlay"></div>
+        <h1 class="page_title flex_item">Odin Recipes</h1>
+    </div>
+    <section>
+        <ul class="recipe_list">
+            <li class="recipe_item">
+                <img class="recipe_photo" src="./images/lasagna.jpg" alt="Lasagna Photo">
+                <a class="recipe_name" href="./recipes/lasagna.html">Skillet Lasagna</a>
+            </li>
+            <li class="recipe_item">
+                <img class="recipe_photo" src="./images/shrimp.jpg" alt="Shrimp Photo">
+                <a class="recipe_name" href="./recipes/shrimp.html">Keto Shrimp Scampi</a>
+            </li>
+            <li class="recipe_item">
+                <img class="recipe_photo" src="./images/salad.jpg" alt="Salad Photo">
+                <a class="recipe_name" href="./recipes/salad.html">Winter Green Salad</a>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
